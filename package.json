@@ -1,0 +1,55 @@
+{
+  "name": "react-native-keyboard-aware-text-input",
+  "version": "1.0.0",
+  "description": "A multiline TextInput component that is aware of the keyboard.",
+  "repository": "https://github.com/lkoehl/react-native-animated-popover",
+  "homepage": "https://github.com/lkoehl/react-native-keyboard-aware-scroll-view#readme",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Lukas Köhl <koehl.lukas@gmx.de>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "compile": "rm -rf lib && tsc -p .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prepare": "yarn compile",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/react-native": "^0.64.12",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.30.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.1",
+    "react": "^17.0.2",
+    "react-native": "^0.64.2",
+    "react-test-renderer": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "react-native-reanimated": "^2.2.0"
+  }
+}
