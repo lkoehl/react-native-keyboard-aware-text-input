@@ -2,7 +2,7 @@
   "name": "react-native-keyboard-aware-text-input",
   "version": "1.0.1",
   "description": "A multiline TextInput component that is aware of the keyboard.",
-  "repository": "https://github.com/lkoehl/react-native-animated-popover",
+  "repository": "https://github.com/lkoehl/react-native-keyboard-aware-scroll-view",
   "homepage": "https://github.com/lkoehl/react-native-keyboard-aware-scroll-view#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
