@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import * as React from 'react'
 import {
   StyleSheet,
   View,
@@ -34,8 +34,8 @@ const defaultProps = {
 }
 
 const KeyboardAwareTextInput = (props: KeyboardAwareTextInputProps) => {
-  const [containerHeight, setContainerHeight] = useState(0)
-  const [keyboardVisible, setKeyboardVisible] = useState(false)
+  const [containerHeight, setContainerHeight] = React.useState(0)
+  const [keyboardVisible, setKeyboardVisible] = React.useState(false)
 
   const inputHeight = useSharedValue(0)
 
@@ -78,7 +78,7 @@ const KeyboardAwareTextInput = (props: KeyboardAwareTextInputProps) => {
     )
   }
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (keyboardVisible) {
       return
     }
@@ -88,7 +88,7 @@ const KeyboardAwareTextInput = (props: KeyboardAwareTextInputProps) => {
     })
   }, [containerHeight])
 
-  useEffect(() => {
+  React.useEffect(() => {
     Keyboard.addListener('keyboardWillShow', _keyboardWillShow)
     Keyboard.addListener('keyboardWillHide', _keyboardWillHide)
 
