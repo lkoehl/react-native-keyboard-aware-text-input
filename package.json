@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-aware-text-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A multiline TextInput component that is aware of the keyboard.",
   "repository": "https://github.com/lkoehl/react-native-keyboard-aware-text-input",
   "homepage": "https://github.com/lkoehl/react-native-keyboard-aware-text-input#readme",
